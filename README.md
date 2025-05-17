@@ -1,53 +1,56 @@
-🌆 Houston Demographics Map
-A Solo Web Project (1 Week Kanban-Based)
-Created by Narasimha Royal Pola
+# 🌆 Houston Demographics Map  
+**A Solo Web Project (1 Week Kanban-Based)**  
+*Created by Narasimha Royal Pola*
 
-📌 Project Overview
+---
+
+## 📌 Project Overview  
 This interactive web application visualizes demographic data for neighborhoods in Houston using a Leaflet.js map. Users can click or select an area from a dropdown to view estimated population, median income, and education levels for that neighborhood.
 
-💡 Designed and developed independently in 7 days, this project emphasizes clarity, usability, and clean UI/UX.
+> 💡 Designed and developed independently in 7 days, this project emphasizes clarity, usability, and clean UI/UX.
 
-⚙️ Features
-📍 Interactive Leaflet.js map of Houston neighborhoods
+---
 
-🎯 Click on a region to view its demographics
+## ⚙️ Features  
+- 📍 Interactive Leaflet.js map of Houston neighborhoods  
+- 🎯 Click on a region to view its demographics  
+- 🧠 Hover effects for better user guidance  
+- 🔄 "Reset View" button to clear selection and re-center map  
+- 📂 Dropdown for quick access to any neighborhood  
+- 📸 A built-in visual user guide to help first-time users
 
-🧠 Hover effects for better user guidance
+---
 
-🔄 "Reset View" button to clear selection and re-center map
+## 🗂 Tech Stack  
+- **HTML5 / CSS3 / JavaScript**  
+- **Leaflet.js** (for map rendering)  
+- **Lucidchart** (for UI guide and Kanban planning)  
+- **GeoJSON** (Houston neighborhood shapes)  
 
-📂 Dropdown for quick access to any neighborhood
+---
 
-📸 A built-in visual user guide to help first-time users
+## 🧠 Project Approach  
+Following the **Kanban** method, tasks were organized into:
+- **To Do** → Planning UI layout, mapping source
+- **In Progress** → Developing core features (map, interactivity)
+- **Done** → Final UI polish, user guide, deployment
 
-🗂 Tech Stack
-HTML5 / CSS3 / JavaScript
+⏱ **Estimated Time Spent:** 14–21 hours over 1 week
 
-Leaflet.js (for map rendering)
+---
 
-Lucidchart (for UI guide and Kanban planning)
+## 🔍 Live Demo  
+If deployed, insert a link here:  
+`🔗 https://your-deployment-link.com`
 
-GeoJSON (Houston neighborhood shapes)
+---
 
-🧠 Project Approach
-Following the Kanban method, tasks were organized into:
+## 📸 Visual Guide  
+This project includes an interactive **PDF-based user guide** accessible from the top-right corner, ensuring new users understand how to interact with the map seamlessly.
 
-To Do → Planning UI layout, mapping source
+---
 
-In Progress → Developing core features (map, interactivity)
-
-Done → Final UI polish, user guide, deployment
-
-⏱ Estimated Time Spent: 14–21 hours over 1 week
-
-🔍 Live Demo
-🔗 [https://your-deployment-link.com](https://houston4.netlify.app/)
-
-📸 Visual Guide
-This project includes an interactive image-based user guide accessible from the top-right corner, ensuring new users understand how to interact with the map seamlessly.
-
-
-📁 Folder Structure
+## 📁 Folder Structure  
 /project-root
 │
 ├── index.html
@@ -56,5 +59,16 @@ This project includes an interactive image-based user guide accessible from the 
 └── images/
     └── guide.png
     
-🙌 Acknowledgements
-OpenStreetMap contributors
+
+---
+
+## 🙌 Acknowledgements  
+- [OpenStreetMap](https://www.openstreetmap.org/) contributors  
+- GeoJSON Houston Data – [blackmad/neighborhoods](https://github.com/blackmad/neighborhoods)
+
+---
+
+## 📬 Contact  
+Created with ❤️ and passion by **Narasimha Royal Pola**  
+Feel free to connect or reach out!
+
