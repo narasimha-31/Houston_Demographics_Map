@@ -40,17 +40,18 @@ Following the **Kanban** method, tasks were organized into:
 ---
 
 ## 🔍 Live Demo  
-If deployed, insert a link here:  
+
 `🔗`https://houston4.netlify.app/
 
 ---
 
 ## 📸 Visual Guide  
-This project includes an interactive **PDF-based user guide** accessible from the top-right corner, ensuring new users understand how to interact with the map seamlessly.
+This project includes an interactive **PNG-based user guide** accessible from the top-right corner, ensuring new users understand how to interact with the map seamlessly.
 
 ---
 
 ## 📁 Folder Structure  
+
 /project-root
 │
 ├── index.html
@@ -59,7 +60,6 @@ This project includes an interactive **PDF-based user guide** accessible from th
 └── images/
     └── guide.png
     
-
 ---
 
 ## 🙌 Acknowledgements  
