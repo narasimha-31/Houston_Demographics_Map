@@ -41,7 +41,7 @@ Following the **Kanban** method, tasks were organized into:
 
 ## 🔍 Live Demo  
 If deployed, insert a link here:  
-`🔗 [https://your-deployment-link.com`](https://houston4.netlify.app/)
+`🔗https://houston4.netlify.app/`
 
 ---
 
