@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston Demographics Map</title>
+    <link
+            rel="icon"
+            href="images/flag.png"
+            type="image/png"
+        />
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HOUSTON DEMOGRAPHICS</h1>
+
+            <button id="openGuideBtn">📘 Guide</button>
+
+<div id="guidePopup" class="hidden">
+  <div class="guide-content">
+    <button id="closeGuideBtn">✖</button>
+    <img src="images/guide.png" alt="User Guide" />
+  </div>
+</div>
+
+            
+        </header>
+
+        <p class="disclaimer">
+    <span style="font-weight: bold;">DISCLAIMER:</span>
+    <blue>The demographic data presented is based on available estimates and may not be fully complete for all neighborhoods.</blue>
+  </p>
+        
+        <div class="map-container">
+            <div id="map"></div>
+            <div id="info-panel" style="background-color: #f5f5f5; padding: 10px;">
+  
+                <div style="text-align: right; margin-bottom: 10px;">
+                  <select id="neighborhoodSelect" style="padding: 8px 12px; font-size: 16px; border-radius: 8px;">
+                    <option value="">Select</option>
+                    <!-- Dynamic options -->
+                  </select>
+                </div>
+              
+                <div id="details">
+                  <strong>Click on a neighborhood to see demographics</strong>
+                </div>
+                <button id="resetButton" >
+                    Reset View
+                  </button>
+              
+              </div>
+
+              
+              
+        </div>
+      </div>
+
+
+        
+      <!-- FOOTER -->
+     
+<footer style="text-align: center; padding: 1rem; font-size: 1rem;font-weight: bold;margin-top: -39px;width: 100%;">
+  &copy; <span id="footer-text"></span> <span id="live-time"></span>
+
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const timeStr = now.toLocaleTimeString();
+      const email = "mailto:npola@cougarnet.uh.edu"; 
+      const link = `<a href="${email}" style="text-decoration: none; color:blue;">Narasimha Royal</a>`;
+      document.getElementById("footer-text").innerHTML = `${year} Made with ❤️ & passion - ${link} |`;
+      document.getElementById("live-time").textContent = timeStr;
+    }
+
+    updateTime(); // Initial call
+    setInterval(updateTime, 1000); // Update every second
+  </script>
+</footer>
+
+
+
+      
+      
+      
+      
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
