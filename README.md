@@ -32,7 +32,7 @@ This interactive web application visualizes demographic data for neighborhoods i
 Following the **Kanban** method, tasks were organized into:
 - **To Do** → Planning UI layout, mapping source
 - **In Progress** → Developing core features (map, interactivity)
-- **Done** → Final UI polish, user guide, deployment
+- **Done** → Final UI polish, user guide, deployment, debug check
 
 ⏱ **Estimated Time Spent:** 14–21 hours over 1 week
 
