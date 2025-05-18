@@ -16,7 +16,7 @@ This interactive web application visualizes demographic data for neighborhoods i
 - 🧠 Hover effects for better user guidance  
 - 🔄 "Reset View" button to clear selection and re-center map  
 - 📂 Dropdown for quick access to any neighborhood  
-- 📸 A built-in visual user guide to help first-time users
+- 📸 A built-in visual user guide to help first-time users or non-tech users
 
 ---
 
