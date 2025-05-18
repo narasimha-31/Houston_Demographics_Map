@@ -1,6 +1,5 @@
 # 🌆 Houston Demographics Map  
 **A Solo Web Project (1 Week Kanban-Based)**  
-*Created by Narasimha Royal Pola*
 
 ---
 
