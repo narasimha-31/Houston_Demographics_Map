@@ -20,7 +20,7 @@ This interactive web application visualizes demographic data for neighborhoods i
 
 ---
 
-## 🗂 Tech Stack  
+## 🗂 Tech  
 - **HTML5 / CSS3 / JavaScript**  
 - **Leaflet.js** (for map rendering)  
 - **Lucidchart** (for UI guide and Kanban planning)  
