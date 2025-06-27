@@ -1,7 +1,7 @@
 // Initialize the map centered on Houston
 const map = L.map('map').setView([29.7604, -95.3698], 10);
 let selectedLayer = null; // 👈 add this at the top of your script
-// Add the base map layer (OpenStreetMap)
+// Adds the base map layer (OpenStreetMap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -354,15 +354,15 @@ fetch("https://raw.githubusercontent.com/blackmad/neighborhoods/master/houston.g
     
     const namesSet = new Set();
 
-    // Step 1: Collect unique names
+    
     geojsonData.features.forEach(feature => {
       namesSet.add(feature.properties.name);
     });
     
-    // Step 2: Convert Set to Array and sort it
+    
     const uniqueNames = Array.from(namesSet).sort();
     
-    // Step 3: Populate the dropdown
+    
     const dropdown = document.getElementById("neighborhoodSelect");
     dropdown.innerHTML = `<option value="">Select an Area</option>`;
     
