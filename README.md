@@ -61,7 +61,7 @@ This project includes an interactive **PNG-based user guide** accessible from th
     
 ---
 
-## 🙌 Acknowledgements  
+## Acknowledgements  
 - [OpenStreetMap](https://www.openstreetmap.org/) contributors  
 - GeoJSON Houston Data – [blackmad/neighborhoods](https://github.com/blackmad/neighborhoods)
 
