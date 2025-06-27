@@ -428,10 +428,10 @@ fetch("https://raw.githubusercontent.com/blackmad/neighborhoods/master/houston.g
               });
 
               document.getElementById("resetButton").addEventListener("click", function () {
-                // Reset map view to Houston center
+                
                 map.setView([29.7604, -95.3698], 10);
               
-                // Clear info panel text
+                
                 document.getElementById("details").innerHTML = `<strong>Click on a neighborhood to see demographics</strong>`;
               
                 // Clear dropdown selection
@@ -493,7 +493,7 @@ document.getElementById("closeGuideBtn").addEventListener("click", function () {
   document.getElementById("guidePopup").classList.add("hidden");
 });
 
-// Optional: Click outside to close
+
 document.getElementById("guidePopup").addEventListener("click", function (e) {
   if (e.target === this) {
     this.classList.add("hidden");
