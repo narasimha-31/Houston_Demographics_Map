@@ -1,73 +1,47 @@
-# 🌆 Houston Demographics Map  
-**A Solo Web Project (1 Week Kanban-Based)**  
+<h1 align="center">🌆 Houston Demographics Map</h1>
 
----
+<p align="center">An interactive Leaflet.js web app visualizing key demographics by neighborhood.<br>
+Designed and built solo in 7 days using a Kanban approach.
+</p>
 
-## 📌 Project Overview  
-This interactive web application visualizes demographic data for neighborhoods in Houston using a Leaflet.js map. Users can click or select an area from a dropdown to view estimated population, median income, and education levels for that neighborhood.
+<hr style="border: 1px solid #000000;" />
 
-> 💡 Designed and developed independently in 7 days, this project emphasizes clarity, usability, and clean UI/UX.
+### 🔗 Live Demo  
+👉 [https://houston4.netlify.app](https://houston4.netlify.app)
 
----
+<hr style="border: 1px solid #000000;" />
 
-## ⚙️ Features  
-- 📍 Interactive Leaflet.js map of Houston neighborhoods  
-- 🎯 Click on a region to view its demographics  
-- 🧠 Hover effects for better user guidance  
-- 🔄 "Reset View" button to clear selection and re-center map  
-- 📂 Dropdown for quick access to any neighborhood  
-- 📸 A built-in visual user guide to help first-time users or non-tech users
+### 🧭 Project Overview
 
----
+This web application maps out Houston's neighborhoods with real-time interactivity.  
+Click or search to reveal estimated **population**, **median income**, and **education levels** by area.
 
-## 🗂 Tech  
-- **HTML5 / CSS3 / JavaScript**  
-- **Leaflet.js** (for map rendering)  
-- **Lucidchart** (for UI guide and Kanban planning)  
-- **GeoJSON** (Houston neighborhood shapes)  
+> 💡 Built from scratch with a focus on simplicity, clarity, and mobile responsiveness.
 
----
+<hr style="border: 1px solid #000000;" />
 
-## 🧠 Project Approach  
-Following the **Kanban** method, tasks were organized into:
-- **To Do** → Planning UI layout, mapping source
-- **In Progress** → Developing core features (map, interactivity)
-- **Done** → Final UI polish, user guide, deployment, debug check
+### ✨ Features
 
-⏱ **Estimated Time Spent:** 14–21 hours over 1 week
+- 📍 Interactive Leaflet.js map
+- 🖱️ Click or hover for neighborhood-level stats
+- 📂 Dropdown to jump to any region
+- 🔄 “Reset View” button to clear selection
+- 🧭 Visual PNG guide for non-tech users
 
----
+<hr style="border: 1px solid #000000;" />
 
-## 🔍 Live Demo  
+### 🧰 Tech Stack
 
-`🔗`https://houston4.netlify.app/
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-2965F1?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lucidchart-FF8000?style=for-the-badge&logo=lucidchart&logoColor=white" />
+  <img src="https://img.shields.io/badge/GeoJSON-black?style=for-the-badge" />
+</div>
 
----
+<hr style="border: 1px solid #000000;" />
 
-## 📸 Visual Guide  
-This project includes an interactive **PNG-based user guide** accessible from the top-right corner, ensuring new users understand how to interact with the map seamlessly.
-
----
-
-## 📁 Folder Structure  
-
-/project-root
-│
-├── index.html
-├── style.css
-├── script.js
-└── images/
-    └── guide.png
-    
----
-
-## Acknowledgements  
-- [OpenStreetMap](https://www.openstreetmap.org/) contributors  
-- GeoJSON Houston Data – [blackmad/neighborhoods](https://github.com/blackmad/neighborhoods)
-
----
-
-## 📬 Contact  
-Created with ❤️ and passion by **Narasimha Royal Pola**  
-Feel free to connect or reach out!
+### 🛠 Project Structure
 
