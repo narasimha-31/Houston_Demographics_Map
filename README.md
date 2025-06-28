@@ -6,12 +6,12 @@ Designed and built solo in 7 days using a Kanban approach.
 
 <hr style="border: 1px solid #000000;" />
 
-### 🔗 Live Demo  
+### Live Demo  
 👉 [https://houston4.netlify.app](https://houston4.netlify.app)
 
 <hr style="border: 1px solid #000000;" />
 
-### 🧭 Project Overview
+###  Project Overview
 
 This web application maps out Houston's neighborhoods with real-time interactivity.  
 Click or search to reveal estimated **population**, **median income**, and **education levels** by area.
@@ -20,7 +20,7 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 <hr style="border: 1px solid #000000;" />
 
-### ✨ Features
+###  Features
 
 - 📍 Interactive Leaflet.js map
 - 🖱️ Click or hover for neighborhood-level stats
@@ -30,7 +30,7 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 <hr style="border: 1px solid #000000;" />
 
-### 🧰 Tech Stack
+###  Technologies Used
 
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-F16529?style=for-the-badge&logo=html5&logoColor=white" />
@@ -44,7 +44,7 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 <hr style="border: 1px solid #000000;" />
 
-### 🧠 Development Workflow (Kanban)
+###  Development Workflow (Kanban)
 
 - **To Do** → UI sketching, dataset sourcing  
 - **In Progress** → Map rendering, region interactivity  
@@ -62,9 +62,11 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 ### 📸 Screenshots
 
-| Full View | Guide Overlay |
-|-----------|----------------|
-| ![Map](./screenshots/full-map.png) | ![Guide](./screenshots/guide-overlay.png) |
+| Full View | 
+|-----------|
+| ![Map](./screenshots/full-map.png) | 
+| Guide Overlay |
+| ![Guide](./screenshots/guide-overlay.png) |
 
 > Add screenshots to the `/screenshots` folder for quick previews.
 
