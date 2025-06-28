@@ -67,7 +67,6 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 | Guide Overlay |
 | ![Guide](./im2.png) |
 
-> Add screenshots to the `/screenshots` folder for quick previews.
 
 <hr style="border: 1px solid #000000;" />
 
@@ -75,5 +74,5 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 Created with ❤️ by **Narasimha Royal**  
 _Masters in Computer Science @ University of Houston_  
-[LinkedIn](https://www.linkedin.com/in/narasimha31/)
+[LinkedIn](https://www.linkedin.com/in/narasimha31)
 
