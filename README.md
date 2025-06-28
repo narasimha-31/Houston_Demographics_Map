@@ -63,9 +63,9 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 | Full View | 
 |-----------|
-| ![Map](./screenshots/full-map.png) | 
+| ![Map](./im1.png) | 
 | Guide Overlay |
-| ![Guide](./screenshots/guide-overlay.png) |
+| ![Guide](./im2.png) |
 
 > Add screenshots to the `/screenshots` folder for quick previews.
 
