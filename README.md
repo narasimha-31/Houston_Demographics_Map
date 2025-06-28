@@ -18,6 +18,17 @@ This interactive map visualizes Houston’s demographic breakdown by neighborhoo
 
 <hr style="border: 1px solid #000000;" />
 
+
+###  Commentary/Insights
+
+- 📍 Interactive Leaflet.js map
+- 🖱️ Click or hover for neighborhood-level stats
+- 📂 Dropdown to jump to any region
+- 🔄 “Reset View” button to clear selection
+- 🧭 Visual PNG guide for non-tech users
+
+<hr style="border: 1px solid #black;" />
+
 ###  Features
 
 - 📍 Interactive Leaflet.js map
