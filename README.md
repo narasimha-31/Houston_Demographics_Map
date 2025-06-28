@@ -41,7 +41,39 @@ Click or search to reveal estimated **population**, **median income**, and **edu
   <img src="https://img.shields.io/badge/GeoJSON-black?style=for-the-badge" />
 </div>
 
+
 <hr style="border: 1px solid #000000;" />
 
-### 🛠 Project Structure
+### 🧠 Development Workflow (Kanban)
+
+- **To Do** → UI sketching, dataset sourcing  
+- **In Progress** → Map rendering, region interactivity  
+- **Done** → Guide overlay, mobile test, deployment  
+
+> ⏱ **Time Spent:** ~14–21 hours over 7 days
+
+<hr style="border: 1px solid #000000;" />
+
+### 🙏 Acknowledgements
+
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [blackmad/neighborhoods GeoJSON](https://github.com/blackmad/neighborhoods)
+
+<hr style="border: 1px solid #000000;" />
+
+### 📸 Screenshots
+
+| Full View | Guide Overlay |
+|-----------|----------------|
+| ![Map](./screenshots/full-map.png) | ![Guide](./screenshots/guide-overlay.png) |
+
+> Add screenshots to the `/screenshots` folder for quick previews.
+
+<hr style="border: 1px solid #000000;" />
+
+### 📬 Contact
+
+Created with ❤️ by **Narasimha Royal**  
+_Masters in Computer Science @ University of Houston_  
+[LinkedIn](https://www.linkedin.com/in/narasimha31/)
 
