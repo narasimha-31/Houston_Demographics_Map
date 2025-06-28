@@ -16,7 +16,6 @@ Designed and built solo in 7 days using a Kanban approach.
 This web application maps out Houston's neighborhoods with real-time interactivity.  
 Click or search to reveal estimated **population**, **median income**, and **education levels** by area.
 
-> 💡 Built from scratch with a focus on simplicity, clarity, and mobile responsiveness.
 
 <hr style="border: 1px solid #000000;" />
 
