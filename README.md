@@ -13,8 +13,7 @@ Designed and built solo in 7 days using a Kanban approach.
 
 ###  Project Overview
 
-This web application maps out Houston's neighborhoods with real-time interactivity.  
-Click or search to reveal estimated **population**, **median income**, and **education levels** by area.
+This interactive map visualizes Houston’s demographic breakdown by neighborhood, helping identify diversity patterns and resource allocation needs.
 
 
 <hr style="border: 1px solid #000000;" />
