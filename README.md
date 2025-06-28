@@ -54,10 +54,9 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 
 <hr style="border: 1px solid #000000;" />
 
-### 🙏 Acknowledgements
+### References
 
 - [OpenStreetMap](https://www.openstreetmap.org/)
-- [blackmad/neighborhoods GeoJSON](https://github.com/blackmad/neighborhoods)
 
 <hr style="border: 1px solid #000000;" />
 
