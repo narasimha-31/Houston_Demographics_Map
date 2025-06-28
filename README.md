@@ -27,7 +27,7 @@ Click or search to reveal estimated **population**, **median income**, and **edu
 - 🔄 “Reset View” button to clear selection
 - 🧭 Visual PNG guide for non-tech users
 
-<hr style="border: 1px solid #000000;" />
+<hr style="border: 1px solid #black;" />
 
 ###  Technologies Used
 
