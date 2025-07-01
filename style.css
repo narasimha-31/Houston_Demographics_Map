@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-90deg,#ffffff,#a0d9eb,rgb(231, 219, 219),rgb(194, 159, 214));
+    background-size: 300% 300%;
+    animation: bg 30s ease infinite;
+    /*
+    background-image: url(images/houston.png);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+    justify-content: center;
+    
+}
+
+header h1{
+    margin:25px auto;
+    text-align: center;
+    margin-top: 2px;
+    
+    /*
+    max-width: 435px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 400px;*/
+    
+}
+
+h1{
+     color : white; /*charcoal or dark gray*/
+
+
+font-family: 'poppins',sans-serif;
+    width: 600px;
+    font-weight: bolder;
+    align-items: center;
+    background: linear-gradient(to right,#335ec9,#ea64ec,#264db1,#5b41a7,purple,violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+
+
+}
+.disclaimer{
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  
+}
+.disclaimer blue{
+    color: black;
+}
+.disclaimer span{
+    color: white;
+    text-shadow:0 0 10px red,
+    0 0 10px red,0 0 10px red;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column,row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1600px;
+    margin:0 auto;
+    padding: 1rem;
+    
+    
+
+    
+}
+
+#map {
+    flex: 2;
+    min-width: 60%;
+    height: 530px;
+    border: 1px solid #ece2e2;
+    
+}
+
+#info-panel {
+    flex:1;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #111010;
+    min-height: 200px;
+    min-width: 35%;
+    width:100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    
+}
+
+@media (min-width: 700px) {
+    .map-container {
+        flex-direction: row;
+    }
+    
+    #map {
+        flex: 2;
+    }
+    
+    #info-panel {
+        flex: 1;
+    }
+}
+
+@media(min-width:1600px){
+    .container{
+        max-width: 1600px;
+    }
+    h1{
+        font-size: 2.6rem;
+    }
+    .header h1{
+        margin:25px auto;
+        text-align: center;
+
+    }
+    #map{
+        height: 600px;
+    }
+    
+}
+
+#neighborhoodSelect {
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 2px solid #3c3939;
+    width: 45%; /* bigger width looks better */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    float: right; /* 👈 this moves it to right side */
+    margin-bottom: 10px; /* add small space */
+    cursor:pointer;
+  }
+  
+#resetButton{
+    
+    display: flex;
+    cursor: pointer;
+    padding: 8px 12px; 
+    margin-top: 15px; 
+    border-radius: 9px; 
+    background-color: #008080; 
+    color: white; 
+    text-decoration: 2px solid;
+    font-size: 17px;
+    transition: all 0.4s;
+
+
+}
+
+#resetButton :hover{
+    
+    transform: scale(1.3);
+    background-color: rgb(128, 150, 150);
+
+}
+
+
+/* Guide Button */
+
+#openGuideBtn {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  right: 35px;
+  padding: 8px 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #ee2a2a;
+  color: white;
+  cursor: pointer;
+  border: 1px solid rgb(226, 169, 169);
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+#guidePopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#guidePopup.hidden {
+  display: none;
+}
+
+.guide-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.guide-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#closeGuideBtn {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
