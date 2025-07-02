@@ -1,7 +1,7 @@
-// Initialize the map centered on Houston
+
 const map = L.map('map').setView([29.7604, -95.3698], 10);
-let selectedLayer = null; // 👈 add this at the top of your script
-// Adds the base map layer (OpenStreetMap)
+let selectedLayer = null;
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -421,10 +421,10 @@ fetch("https://raw.githubusercontent.com/blackmad/neighborhoods/master/houston.g
             }
       
             layer.setStyle({
-                color: "#ffffff",          // white outline
-                weight: 4,                 // thicker border
-                fillColor: "#ffcc00",      // bright yellow fill
-                fillOpacity: 0.8           // bolder fill
+                color: "#ffffff",          
+                weight: 4,                 
+                fillColor: "#ffcc00",      
+                fillOpacity: 0.8           
               });
 
               document.getElementById("resetButton").addEventListener("click", function () {
@@ -477,8 +477,8 @@ fetch("https://raw.githubusercontent.com/blackmad/neighborhoods/master/houston.g
       
         geojsonLayer.eachLayer(layer => {
           if (layer.feature.properties.name === selectedName) {
-            map.fitBounds(layer.getBounds());      // 🔍 Zoom to that shape
-            layer.fire("click");                   // 🟡 Trigger click (highlights + info)
+            map.fitBounds(layer.getBounds());      
+            layer.fire("click");                   
           }
         });
       });
